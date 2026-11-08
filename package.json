@@ -1,5 +1,5 @@
 {
-  "name": "magpie-agent-Toonflow",
+  "name": "magpie-agent-toonflow",
   "version": "0.1.0",
   "description": "Magpie agent plugin for Toonflow: text models and MCP resource sync through magpie-image.",
   "type": "module",
