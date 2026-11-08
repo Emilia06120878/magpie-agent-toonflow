@@ -1,10 +1,10 @@
-# magpie-agent-Toonflow
+# magpie-agent-toonflow
 
 [English](README.en.md) | 简体中文
 
 > English: A Magpie agent plugin that detects a local Toonflow installation, makes it manageable from Magpie's Agents page, shares Magpie's text models with Toonflow, and syncs Magpie Library MCP resources to Toonflow. Image/video models are **not** imported as Toonflow media providers; use Magpie's `magpie-image` MCP through the Library instead.
 
-[![Version](https://img.shields.io/badge/version-0.1.0-blue)](https://github.com/Emilia06120878/magpie-agent-Toonflow)
+[![Version](https://img.shields.io/badge/version-0.1.0-blue)](https://github.com/Emilia06120878/magpie-agent-toonflow)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 让 **Magpie** 探测并管理本机 **Toonflow**，把 Magpie 已接入的文本模型提供给 Toonflow，并把 Magpie 资源库中勾选的 MCP 服务同步到 Toonflow。Agent 卡片和插件图标均使用 Toonflow 官方 Logo（MIT，见 [assets/TOONFLOW-LICENSE](assets/TOONFLOW-LICENSE)）。
@@ -34,14 +34,14 @@
 项目以 GitHub topic `magpie-plugin` 出现在 Magpie 的社区插件发现列表中。也可直接用 Magpie CLI 安装：
 
 ```bash
-magpie plugin add github:Emilia06120878/magpie-agent-Toonflow
+magpie plugin add github:Emilia06120878/magpie-agent-toonflow
 ```
 
 或在本地克隆后安装目录：
 
 ```bash
-git clone https://github.com/Emilia06120878/magpie-agent-Toonflow.git
-magpie plugin add ./magpie-agent-Toonflow
+git clone https://github.com/Emilia06120878/magpie-agent-toonflow.git
+magpie plugin add ./magpie-agent-toonflow
 ```
 
 安装后：
@@ -55,7 +55,7 @@ magpie plugin add ./magpie-agent-Toonflow
 若要从本机移除插件：
 
 ```bash
-magpie plugin rm github:Emilia06120878/magpie-agent-Toonflow
+magpie plugin rm github:Emilia06120878/magpie-agent-toonflow
 ```
 
 Magpie 会在断开 Agent 时还原其写入的文本供应商配置。插件桥接的 MCP 条目可通过资源库取消勾选同步移除；插件不会改动 Toonflow 用户自己添加的 MCP 服务。

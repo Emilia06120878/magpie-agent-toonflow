@@ -1,4 +1,4 @@
-// Read-only local diagnostics for magpie-agent-Toonflow.
+// Read-only local diagnostics for magpie-agent-toonflow.
 
 import fs from "node:fs";
 import { discoverToonflow } from "../lib/discovery.mjs";

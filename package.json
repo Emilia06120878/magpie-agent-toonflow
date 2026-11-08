@@ -24,7 +24,7 @@
   ],
   "magpie": {
     "name": "Toonflow",
-    "icon": "https://raw.githubusercontent.com/Emilia06120878/magpie-agent-Toonflow/main/assets/toonflow.svg",
+    "icon": "https://raw.githubusercontent.com/Emilia06120878/magpie-agent-toonflow/main/assets/toonflow.svg",
     "agent": "./toonflow.agent.mjs",
     "summary": {
       "zh": "在 Magpie 中探测和管理本机 Toonflow，同步文本模型与 MCP 资源；生图能力通过 magpie-image MCP 使用。",
@@ -42,10 +42,10 @@
   "author": "Emilia06120878",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Emilia06120878/magpie-agent-Toonflow.git"
+    "url": "git+https://github.com/Emilia06120878/magpie-agent-toonflow.git"
   },
-  "homepage": "https://github.com/Emilia06120878/magpie-agent-Toonflow#readme",
+  "homepage": "https://github.com/Emilia06120878/magpie-agent-toonflow#readme",
   "bugs": {
-    "url": "https://github.com/Emilia06120878/magpie-agent-Toonflow/issues"
+    "url": "https://github.com/Emilia06120878/magpie-agent-toonflow/issues"
   }
 }

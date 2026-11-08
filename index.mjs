@@ -27,15 +27,15 @@ function watchBridge(env) {
         try {
           syncBridge(env);
         } catch (error) {
-          console.error("[magpie-agent-Toonflow] MCP bridge:", error.message);
+          console.error("[magpie-agent-toonflow] MCP bridge:", error.message);
         }
       }, 100);
       pending.unref?.();
     });
-    bridgeWatcher.on("error", (error) => console.error("[magpie-agent-Toonflow] MCP bridge watch:", error.message));
+    bridgeWatcher.on("error", (error) => console.error("[magpie-agent-toonflow] MCP bridge watch:", error.message));
     bridgeWatcher.unref?.();
   } catch (error) {
-    console.error("[magpie-agent-Toonflow] MCP bridge watch:", error.message);
+    console.error("[magpie-agent-toonflow] MCP bridge watch:", error.message);
   }
 }
 
