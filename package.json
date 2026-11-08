@@ -1,0 +1,51 @@
+{
+  "name": "magpie-agent-Toonflow",
+  "version": "0.1.0",
+  "description": "Magpie agent plugin for Toonflow: text models and MCP resource sync through magpie-image.",
+  "type": "module",
+  "private": false,
+  "license": "MIT",
+  "main": "./index.mjs",
+  "keywords": [
+    "magpie",
+    "magpie-plugin",
+    "toonflow",
+    "agent",
+    "mcp"
+  ],
+  "files": [
+    "index.mjs",
+    "toonflow.agent.mjs",
+    "lib/",
+    "assets/",
+    "README.md",
+    "README.en.md",
+    "LICENSE"
+  ],
+  "magpie": {
+    "name": "Toonflow",
+    "icon": "https://raw.githubusercontent.com/Emilia06120878/magpie-agent-Toonflow/main/assets/toonflow.svg",
+    "agent": "./toonflow.agent.mjs",
+    "summary": {
+      "zh": "在 Magpie 中探测和管理本机 Toonflow，同步文本模型与 MCP 资源；生图能力通过 magpie-image MCP 使用。",
+      "en": "Detect and manage local Toonflow in Magpie, sync text models and MCP resources; use image models through magpie-image MCP."
+    }
+  },
+  "engines": {
+    "bun": ">=1.1.0",
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "doctor": "node tools/doctor.mjs"
+  },
+  "author": "Emilia06120878",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emilia06120878/magpie-agent-Toonflow.git"
+  },
+  "homepage": "https://github.com/Emilia06120878/magpie-agent-Toonflow#readme",
+  "bugs": {
+    "url": "https://github.com/Emilia06120878/magpie-agent-Toonflow/issues"
+  }
+}

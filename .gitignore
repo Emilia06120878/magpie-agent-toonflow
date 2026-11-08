@@ -1,0 +1,7 @@
+# Build and runtime artifacts
+.publish-payload.json
+.omc/
+*.tmp
+
+# Local binary icon; the manifest uses the official raw SVG URL.
+assets/toonflow.ico
