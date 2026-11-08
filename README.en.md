@@ -2,7 +2,7 @@
 
 [简体中文](README.md) | English
 
-[![Version](https://img.shields.io/badge/version-0.1.0-blue)](https://github.com/Emilia06120878/magpie-agent-toonflow)
+[![Version](https://img.shields.io/badge/version-0.1.1-blue)](https://github.com/Emilia06120878/magpie-agent-toonflow)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 A [Magpie](https://github.com/yetone/magpie) agent plugin that detects a local [Toonflow](https://github.com/HBAI-Ltd/Toonflow-app) installation, makes it manageable from Magpie's Agents page, shares Magpie's text models with Toonflow, and syncs Magpie Library MCP resources to Toonflow. The Agent row and plugin icon use Toonflow's official logo (MIT; see [assets/TOONFLOW-LICENSE](assets/TOONFLOW-LICENSE)).

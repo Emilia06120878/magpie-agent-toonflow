@@ -4,7 +4,7 @@
 
 > English: A Magpie agent plugin that detects a local Toonflow installation, makes it manageable from Magpie's Agents page, shares Magpie's text models with Toonflow, and syncs Magpie Library MCP resources to Toonflow. Image/video models are **not** imported as Toonflow media providers; use Magpie's `magpie-image` MCP through the Library instead.
 
-[![Version](https://img.shields.io/badge/version-0.1.0-blue)](https://github.com/Emilia06120878/magpie-agent-toonflow)
+[![Version](https://img.shields.io/badge/version-0.1.1-blue)](https://github.com/Emilia06120878/magpie-agent-toonflow)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 让 **Magpie** 探测并管理本机 **Toonflow**，把 Magpie 已接入的文本模型提供给 Toonflow，并把 Magpie 资源库中勾选的 MCP 服务同步到 Toonflow。Agent 卡片和插件图标均使用 Toonflow 官方 Logo（MIT，见 [assets/TOONFLOW-LICENSE](assets/TOONFLOW-LICENSE)）。
